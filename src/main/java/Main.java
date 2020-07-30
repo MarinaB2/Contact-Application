@@ -18,7 +18,7 @@ public class Main {
         person.add(new People("Ram Danile", "Stockholm l99", "019787099", "019760000", "2005-10-01"));
         person.add(new People("Daniel RL", "Stockholm 098", "019787877", "019766677", "2017-05-04"));
 
-        System.out.println("Test ");
+        System.out.println("Write a Name or mobile number to search : ");
         Scanner input = new Scanner(System.in);
         String inpuString = input.nextLine();
 
